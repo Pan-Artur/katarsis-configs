@@ -1,0 +1,12 @@
+[general]
+method = pulse
+bars = 0
+framerate = 60
+autosens = 1
+
+[input]
+source = auto
+
+[output]
+method = ncurses
+channels = mono

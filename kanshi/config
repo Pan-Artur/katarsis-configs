@@ -1,0 +1,4 @@
+profile {
+	exec "hyprctl keyword input:kb_layout 'us,ua'"
+	exec "hyprctl keyword input:kb_options 'grp:shift_alt_toggle'"
+}
