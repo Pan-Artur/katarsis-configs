@@ -1,0 +1,5 @@
+# Ignore sensitive/temp files
+*.log
+*.tmp
+fish_variables
+lazy-lock.json

@@ -1,0 +1,72 @@
+/* Global Settings & Colors */
+* {
+    /* Colors: Deep Night Palette */
+    bg:             #050a15;
+    bg-alt:         #0b1222;
+    fg:             #e2e8f0;
+    accent:         #1e3a8a;
+    active:         #0ea5e9;
+
+    background-color: @bg;
+    text-color:       @fg;
+    font:             "JetBrainsMono Nerd Font 12";
+}
+
+/* Main Window */
+window {
+    width:          30%;
+    border:         2px;
+    border-color:   @accent;
+    border-radius:  12px;
+    padding:        10px;
+}
+
+mainbox {
+    children:       [ inputbar, listview ];
+}
+
+/* Search Bar */
+inputbar {
+    background-color: @bg-alt;
+    margin:           5px;
+    padding:          10px;
+    border-radius:    8px;
+    children:         [ prompt, entry ];
+}
+
+prompt {
+    background-color: transparent;
+    margin:           0;
+}
+
+entry {
+    background-color: transparent;
+}
+
+/* List View */
+listview {
+    lines:          8;
+    columns:        1;
+    fixed-height:   false;
+    spacing:        5px;
+}
+
+element {
+    padding:        8px;
+    border-radius:  6px;
+    margin:         2px;
+}
+
+element selected {
+    border:           1px;
+    border-color:     @active;
+    text-color:       #ffffff;
+}
+
+/* Scrollbar */
+scrollbar {
+    width:          4px;
+    handle-color:   @active;
+    handle-width:   4px;
+    padding:        0 5px;
+}
