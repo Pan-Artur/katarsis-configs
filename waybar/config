@@ -70,7 +70,7 @@
     "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
     "format-charging": "󰂄 {capacity}%",
     "format-plugged": "󰂄 {capacity}%",
-    "tooltip-format": "{capacity}% remaining"
+    "tooltip": false
   },
 
   "network": {
@@ -79,8 +79,7 @@
     "format-ethernet": "󰀂   {ifname}",
     "format-alt": "󱛇",
     "format-disconnected": "󰖪",
-    "tooltip-format-wifi": "⇣  {bandwidthDownBytes}  ⇡  {bandwidthUpBytes}",
-    "tooltip-format-ethernet": "⇣  {bandwidthDownBytes}  ⇡  {bandwidthUpBytes}",
+    "tooltip": false,
     "interval": 5
   },
 
@@ -90,7 +89,8 @@
     "format-icons": {
       "default": ["󰕿", "󰖀", "󰕾"]
     },
-    "on-click": "pamixer -t"
+    "on-click": "pamixer -t",
+    "tooltip": false
   },
 
   "pulseaudio#microphone": {
@@ -99,7 +99,8 @@
     "format-source-muted": "󰍭",
     "on-click": "pamixer --default-source -t",
     "scroll-step": 1,
-    "on-click-right": "pavucontrol"
+    "on-click-right": "pavucontrol",
+    "tooltip": false
   },
 
   "power-profiles-daemon": {
@@ -121,7 +122,8 @@
 
   "custom/arch": {
     "format": "󰣇",
-    "on-click": "wofi --show drun"
+    "on-click": "wofi --show drun",
+    "tooltip": false
   },
 
   "custom/media": {
@@ -138,6 +140,7 @@
 
   "custom/power": {
     "format": "󰐥",
-    "on-click": "/home/artur/.config/wofi/powermenu.sh"
+    "on-click": "/home/artur/.config/wofi/powermenu.sh",
+    "tooltip": false
   }
 }
