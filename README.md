@@ -67,9 +67,8 @@ This project is deeply inspired by the music and energy of the band Katarsis. Th
 
 [![Telegram](https://img.shields.io/badge/Telegram-26A6E1?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ArchiPank)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pan-Artur)
-[![Arch Linux Ukraine](https://img.shields.io/badge/Arch_Linux_UA-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)](https://t.me/archlinux_ua)
 
 * Created by **Pankovets Artur**.
-* Proud member of the **Arch Linux Ukraine** community.
+* Proud member of the **Arch Linux** community.
 
 Clean your system. Clean your mind. Listen to Katarsis.
