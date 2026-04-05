@@ -34,7 +34,7 @@ A high-performance, minimalist Arch Linux setup (Rice) built on the **Hyprland**
 
 1. **Clone the repo:**
 ```bash
-git clone [https://github.com/Pan-Artur/katarsis-configs.git](https://github.com/Pan-Artur/katarsis-configs.git)
+git clone https://github.com/Pan-Artur/katarsis-configs.git
 cd katarsis-configs
 ```
 
