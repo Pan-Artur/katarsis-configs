@@ -16,7 +16,7 @@ A high-performance, minimalist Arch Linux setup (Rice) built on the **Hyprland**
 * **Terminal:** [Kitty](https://sw.kovidgoyal.net/kitty/)
 * **Shell:** [Fish](https://fishshell.com/)
 * **Editor:** [Neovim](https://neovim.io/) (Night Owl theme)
-* **Wallpaper Manager:** [wlchanger](https://github.com/subarash-ii/wlchanger) (External tool used for dynamic backgrounds)
+* **Wallpaper Manager:** [WLChanger](https://github.com/subarash-ii/wlchanger) (External tool used for dynamic backgrounds)
 * **Launcher:** [Wofi](https://hg.sr.ht/~scoopta/wofi) / [Rofi](https://github.com/davatorium/rofi)
 * **Visualizer:** [Cava](https://github.com/karlstav/cava)
 * **Notifications:** [Mako](https://github.com/emersion/mako)
